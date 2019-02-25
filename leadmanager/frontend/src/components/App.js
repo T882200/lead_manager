@@ -34,7 +34,7 @@ class App extends Component {
 
   render() {
     return (
-      <Provider store={store}>
+      <Provider store={store} >
         <AlertProvider template={AlertTemplate} {...alertOptions}>
           <Router>
             <Fragment>
